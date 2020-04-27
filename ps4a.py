@@ -1,3 +1,6 @@
+"""
+@author: johnoyegbite
+"""
 # The 6.00 Word Game
 
 import random
