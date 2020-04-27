@@ -5,12 +5,17 @@
 >letters. Each valid word receives a score, based on the length of the word and
 >the letters in that word.
 
+This is the game file [ps4a.py][game file]
+
+[game file]: https://github.com/Oyelson/wordgame-scrabblelike/blob/master/ps4a.py
+
 The rules of the game are as follows:
 
 #### Dealing
 * A player is dealt a hand of n letters chosen at random (assume n=7 for now).
 
-* The player arranges the hand into as many words as they want out of the letters, using each letter at most once.
+* The player arranges the hand into as many words as they want out of the letters,
+  using each letter at most once.
 
 * Some letters may remain unused (these won't be scored).
 
@@ -24,3 +29,8 @@ The rules of the game are as follows:
 * For example, 'weed' would be worth 32 points ((4+1+1+2) for the four letters, then multiply by len('weed') to get (4+1+1+2)*4 = 32). Be sure to check that the hand actually has 1 'w', 2 'e's, and 1 'd' before scoring the word!
 
 * As another example, if n=7 and you make the word 'waybill' on the first try, it would be worth 155 points (the base score for 'waybill' is (4+1+4+3+1+1+1)*7=105, plus an additional 50 point bonus for using all n letters).
+
+
+> PS:
+>    I developed this game during an MITx course on edX.
+>    * 6.00.1x: Introduction to Computer Science and Programming Using Python
